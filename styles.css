@@ -11,16 +11,24 @@ body {
 
 /* Specific background colors for each page */
 body.index-page {
-    background-color: #ffe6e6; 
+    background-color: #e7a0bc; 
 }
 
 body.second-page {
-    background-color: #f3e5f5; 
+    background-color: #9f78a5; 
 }
 
 h1, h2 {
-    color: #2c3e50;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    color: #4b0082; 
+    transition: font-family 0.3s ease; 
 }
+
+h1:hover, h2:hover {
+    font-family: 'Comic Sans MS', cursive;
+}
+
 
 nav {
     margin-top: 20px;
@@ -57,4 +65,18 @@ p {
     max-width: 800px; 
     margin: 20px auto; 
     line-height: 1.6; 
+}
+
+ul {
+    list-style-position: inside; 
+    padding-left: 0; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    text-align: left; 
+}
+
+li {
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    color: #4b0082; 
 }

@@ -25,7 +25,7 @@ h1, h2 {
     transition: font-family 0.3s ease; 
 }
 
-h1:hover, h2:hover {
+h1:hover, h2:hover ul:hover p:hover ul:hover{
     font-family: 'Comic Sans MS', cursive;
 }
 
